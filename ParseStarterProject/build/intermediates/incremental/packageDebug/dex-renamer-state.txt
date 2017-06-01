@@ -1,0 +1,7 @@
+#Wed May 31 19:16:35 PDT 2017
+base.0=/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a9426528710772fa03613f41b36bf31db0e40383
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f2f773e7aa79039df11203fee18b35b3b155b78b/classes.dex
+base.1=/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f2f773e7aa79039df11203fee18b35b3b155b78b
+file.0=/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a9426528710772fa03613f41b36bf31db0e40383/classes.dex

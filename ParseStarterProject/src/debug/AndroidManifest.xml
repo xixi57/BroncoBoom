@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity
+            android:name="com.parse.starter.myprofileActivity"
+            android:label="@string/title_activity_myprofile"
+            android:largeHeap="true"
+            android:hardwareAccelerated="false"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+</manifest>
