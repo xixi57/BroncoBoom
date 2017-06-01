@@ -4,6 +4,10 @@
         "source": "/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/menu/share_menu.xml"
     },
     {
+        "merged": "/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/menu/menu_user_feed_scrolling.xml",
+        "source": "/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/menu/menu_user_feed_scrolling.xml"
+    },
+    {
         "merged": "/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/menu/myprofile.xml",
         "source": "/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/debug/res/menu/myprofile.xml"
     },

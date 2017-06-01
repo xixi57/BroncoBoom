@@ -277,17 +277,6 @@ public class myprofileActivity extends AppCompatActivity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-//        int id = item.getItemId();
-//
-//        //noinspection SimplifiableIfStatement
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
-//
-//        return super.onOptionsItemSelected(item);
 
         if(item.getItemId() == R.id.share) {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -447,25 +436,7 @@ class ImageAdapter extends BaseAdapter {
     ArrayList<String> urls = new ArrayList<>();
 
     public ImageAdapter(final Context c,ArrayList<String> urls) {
-//        final ParseQuery<ParseObject> imagequery = new ParseQuery<ParseObject>("Image");
-//        imagequery.whereEqualTo("username",ParseUser.getCurrentUser().getUsername());
-//        imagequery.addDescendingOrder("createdAt");
-//
-//        imagequery.findInBackground(new FindCallback<ParseObject>() {
-//            @Override
-//            public void done(List<ParseObject> objects, ParseException e) {
-//                if(e == null) {
-//                    if(objects.size() > 0) {
-//
-//                        for(ParseObject object:objects) {
-//                            ParseFile file = (ParseFile) object.get("image");
-//                            urls.add(file.getUrl().toString());
-//                        }
-//                    }
-//                }
-//            }
-//
-//        });
+
         this.urls = urls;
         this.mContext = c;
     }
@@ -505,37 +476,3 @@ class ImageAdapter extends BaseAdapter {
 }
 
 
-//
-//class MyAsyncTask extends AsyncTask<Void,Void,ArrayList<String>>
-//{
-//    ArrayList<String> strings;
-//    @Override
-//    protected void doInBackground(Void... params) {
-//        strings = new ArrayList<>();
-//        final ParseQuery<ParseObject> imagequery = new ParseQuery<ParseObject>("Image");
-//        imagequery.whereEqualTo("username",ParseUser.getCurrentUser().getUsername());
-//        imagequery.addDescendingOrder("createdAt");
-//
-//        imagequery.findInBackground(new FindCallback<ParseObject>() {
-//            @Override
-//            public void done(List<ParseObject> objects, ParseException e) {
-//                if(e == null) {
-//                    if(objects.size() > 0) {
-//
-//                        for(ParseObject object:objects) {
-//                            ParseFile file = (ParseFile) object.get("image");
-//                            strings.add(file.getUrl().toString());
-//                        }
-//                    }
-//                }
-//            }
-//        });
-//        return null;
-//    }
-//    @Override
-//    protected void onPostExecute(ArrayList<String> result) {
-//        Log.i("asynctask finish", String.valueOf(result));
-//        Log.i("asynctask finish", String.valueOf(strings.size()));
-//
-//    }
-//}

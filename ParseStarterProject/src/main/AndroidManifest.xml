@@ -19,9 +19,9 @@
         android:name=".StarterApplication"
         android:allowBackup="true"
         android:hardwareAccelerated="false"
-        android:largeHeap="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
@@ -35,6 +35,10 @@
         <activity android:name=".userListActivity" />
         <activity android:name=".userFeedActivity" />
         <activity android:name=".myprofileActivity" />
+        <activity
+            android:name=".userFeedScrollingActivity"
+            android:label="@string/title_activity_user_feed_scrolling"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

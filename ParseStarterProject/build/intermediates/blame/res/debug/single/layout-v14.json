@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/layout-v14/activity_user_list.xml",
+        "source": "/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/layout-v14/activity_user_list.xml"
+    },
+    {
         "merged": "/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/layout-v14/content_myprofile.xml",
         "source": "/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/debug/res/layout-v14/content_myprofile.xml"
     }

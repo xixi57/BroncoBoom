@@ -21,7 +21,6 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.parse.FindCallback;
-import com.parse.ParseAnalytics;
 import com.parse.ParseException;
 import com.parse.ParseFile;
 import com.parse.ParseObject;
@@ -38,7 +37,7 @@ public class userListActivity extends AppCompatActivity {
 
     public ListView userList;
     public ArrayAdapter<String> adapter;
-    public ArrayList<String> users;
+    public static ArrayList<String> users;
 
     public void getPhoto() {
         Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);//importante!!
@@ -109,9 +108,16 @@ public class userListActivity extends AppCompatActivity {
             public void done(List<ParseUser> objects, ParseException e) {
                 if(e == null) {
                     Log.i("retrived users",Integer.toString(objects.size()));
+                    users.clear();
                     for(ParseUser user: objects) {
+                        Log.i("user name is", user.getString("username"));
                         users.add(user.getUsername().toString());
+                        Log.i("userslist length",String.valueOf(users.size()));
                     }
+                    ArrayList<String> activeusers  = new ArrayList<String>(users);
+                    adapter = new ArrayAdapter<String>(userListActivity.this, android.R.layout.simple_list_item_1, activeusers);
+                    userList.setAdapter(adapter);
+                    adapter.notifyDataSetChanged();
                 } else {
                     Log.i("users retrive failed","noo!!!");
                 }
@@ -121,17 +127,15 @@ public class userListActivity extends AppCompatActivity {
         userList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(getApplicationContext(),userFeedActivity.class);
+                Intent intent = new Intent(userListActivity.this,userFeedScrollingActivity.class);
                 intent.putExtra("username",users.get(position));
                 startActivity(intent);
-
             }
         });
 
-        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, users);
-        userList.setAdapter(adapter);
 
-        ParseAnalytics.trackAppOpenedInBackground(getIntent());
+
+       // ParseAnalytics.trackAppOpenedInBackground(getIntent());
 
     }
     @Override
@@ -139,27 +143,29 @@ public class userListActivity extends AppCompatActivity {
         super.onResume();
         // put your code here...
         //imageUpdate();
-        userList = (ListView) findViewById(R.id.userListView);
-        users = new ArrayList<>();
+//        userList = (ListView) findViewById(R.id.userListView);
+//
+//
+//        ParseQuery<ParseUser> query = ParseUser.getQuery();
+//        query.whereNotEqualTo("username",ParseUser.getCurrentUser().getUsername());
+//        query.addAscendingOrder("username");
+//        query.findInBackground(new FindCallback<ParseUser>() {
+//            @Override
+//            public void done(List<ParseUser> objects, ParseException e) {
+//                if(e == null) {
+//                    Log.i("retrived users",Integer.toString(objects.size()));
+//                    for(ParseUser user: objects) {
+//                        users = new ArrayList<>();
+//                        users.add(user.getUsername().toString());
+//                        adapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, users);
+//                        userList.setAdapter(adapter);
+//                    }
+//                } else {
+//                    Log.i("users retrive failed","noo!!!");
+//                }
+//            }
+//        });
 
-        ParseQuery<ParseUser> query = ParseUser.getQuery();
-        query.whereNotEqualTo("username",ParseUser.getCurrentUser().getUsername());
-        query.addAscendingOrder("username");
-        query.findInBackground(new FindCallback<ParseUser>() {
-            @Override
-            public void done(List<ParseUser> objects, ParseException e) {
-                if(e == null) {
-                    Log.i("retrived users",Integer.toString(objects.size()));
-                    for(ParseUser user: objects) {
-                        users.add(user.getUsername().toString());
-                    }
-                } else {
-                    Log.i("users retrive failed","noo!!!");
-                }
-            }
-        });
-        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, users);
-        userList.setAdapter(adapter);
     }
 
     @Override
@@ -168,28 +174,30 @@ public class userListActivity extends AppCompatActivity {
         // put your code here...
         //imageUpdate();
 
-        userList = (ListView) findViewById(R.id.userListView);
-        users = new ArrayList<>();
+//        userList = (ListView) findViewById(R.id.userListView);
+//
+//
+//        ParseQuery<ParseUser> query = ParseUser.getQuery();
+//        query.whereNotEqualTo("username",ParseUser.getCurrentUser().getUsername());
+//        query.addAscendingOrder("username");
+//        query.findInBackground(new FindCallback<ParseUser>() {
+//            @Override
+//            public void done(List<ParseUser> objects, ParseException e) {
+//                if(e == null) {
+//                    Log.i("retrived users",Integer.toString(objects.size()));
+//                    for(ParseUser user: objects) {
+//                        users = new ArrayList<>();
+//                        users.add(user.getUsername().toString());
+//                        adapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, users);
+//                        userList.setAdapter(adapter);
+//                    }
+//                } else {
+//                    Log.i("users retrive failed","noo!!!");
+//                }
+//            }
+//        });
 
-        ParseQuery<ParseUser> query = ParseUser.getQuery();
-        query.whereNotEqualTo("username",ParseUser.getCurrentUser().getUsername());
-        query.addAscendingOrder("username");
-        query.findInBackground(new FindCallback<ParseUser>() {
-            @Override
-            public void done(List<ParseUser> objects, ParseException e) {
-                if(e == null) {
-                    Log.i("retrived users",Integer.toString(objects.size()));
-                    for(ParseUser user: objects) {
-                        users.add(user.getUsername().toString());
-                    }
-                } else {
-                    Log.i("users retrive failed","noo!!!");
-                }
-            }
-        });
 
-        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, users);
-        userList.setAdapter(adapter);
     }
      
 

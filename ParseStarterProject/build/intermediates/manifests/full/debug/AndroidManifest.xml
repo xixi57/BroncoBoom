@@ -50,7 +50,11 @@
             </intent-filter>
         </activity>
         <activity android:name="com.parse.starter.userListActivity" />
-        <activity android:name="com.parse.starter.userFeedActivity" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity android:name="com.parse.starter.userFeedActivity" />
+        <activity
+            android:name="com.parse.starter.userFeedScrollingActivity"
+            android:label="@string/title_activity_user_feed_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"

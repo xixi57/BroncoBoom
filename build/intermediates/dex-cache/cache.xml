@@ -57,12 +57,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_01164771ac00cd81ff81c8c0e6346851a7b76275/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
         sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
         <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_5c34179df2298be660a1bce34f2b79fbe1b62397/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.4.0_ea63f0153c7402b29865f2aecf51985f0b2954f1/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -75,6 +93,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="65b49dc2dfe77c4b62793f5e12ed46e1337395c4">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a9426528710772fa03613f41b36bf31db0e40383/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -84,12 +111,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="7ea53c4458b80e8ea71f7fd6831fa184c501377b">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.4.0_ab34452c9a17e6cf59280c7df701ffdec06e3c27/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="4f6ab6d6447d5494efd6637ed4455a456ece7560">
+        sha1="74ebf96d59b11cd6872ab5b13976fc74050b2861">
         <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f2f773e7aa79039df11203fee18b35b3b155b78b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.4.0_a923536f2896c98d1ce8ad98c1f7a31de46ab4a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raoyinchen/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.13.0/58a7d54b6a4f28be11f0cecec93097eddf473e6f/parse-android-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/parse-android-1.13.0_c5bb5e5b87827334a51d4f4b6a297b9d82b7658d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_7d9070e2110dac9d10016ff8840b1045367dfca0/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -126,6 +189,15 @@
         revision="22.0.1"
         sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
         <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.4.0_926f2611cc774bb07a810569990fe4117277d0e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raoyinchen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_f99c94c6be1d17f88f8feccaa729ee624008ff01/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -174,6 +246,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.4.0_b83e1709eb00313e08de54ffde15f7fea47ee2f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -201,213 +282,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.4.0_99bcf3a3a9c442aa758caa0878c696a21f9e280d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.4.0_44a1cfd158904d6ced45a57445a736a08fd77f07/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.4.0_923029049c4e8981f493dbd01fd83261701e61b5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.4.0_04aea48bca90a1c60c82e7d8dda9c8ee53a23275/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_444711c9ebbc00f83342e5c72ddeca322e13c74a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_f9fd1729ea006418140cda520cf7d5614096e342/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.4.0_1a1974578b9b31efd9875256e1b48c3f6f9c9998/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.4.0_d4cac995ecdcc459701717653673a3ee49235dcb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.4.0_d2ccba14387b704bc866da4e22c6ddf3893065d0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="4348dd26d83b56c2058b768222c3271bce911724">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.4.0_4225ce3c31b4cac60df645670fcb5067e14dfa6a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.4.0_5e1b86e00589955aa5fab4e75c20cffa8ec49f22/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.4.0_115e2da9b919534552ae85c95cb569ebf0451d7e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_864115cdee2812c6523afcc48f1046fcd6e0b612/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.4.0_92342f7dd0dc77602f2b809135f5af392118e792/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_01164771ac00cd81ff81c8c0e6346851a7b76275/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.4.0_ea63f0153c7402b29865f2aecf51985f0b2954f1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="150683f3c71286d8a13ab2d29ba8859c88b3c5f5">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a9426528710772fa03613f41b36bf31db0e40383/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="7ea53c4458b80e8ea71f7fd6831fa184c501377b">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.4.0_ab34452c9a17e6cf59280c7df701ffdec06e3c27/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.4.0_a923536f2896c98d1ce8ad98c1f7a31de46ab4a8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.13.0/58a7d54b6a4f28be11f0cecec93097eddf473e6f/parse-android-1.13.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/parse-android-1.13.0_c5bb5e5b87827334a51d4f4b6a297b9d82b7658d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_7d9070e2110dac9d10016ff8840b1045367dfca0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_f99c94c6be1d17f88f8feccaa729ee624008ff01/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
-        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.4.0_b83e1709eb00313e08de54ffde15f7fea47ee2f4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -432,6 +306,15 @@
         revision="22.0.1"
         sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
         <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_931d7a536543907f4e20cc19df168b86bb7c9d3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.4.0_99bcf3a3a9c442aa758caa0878c696a21f9e280d/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -471,6 +354,42 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.4.0_44a1cfd158904d6ced45a57445a736a08fd77f07/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.4.0_923029049c4e8981f493dbd01fd83261701e61b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.4.0_04aea48bca90a1c60c82e7d8dda9c8ee53a23275/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_444711c9ebbc00f83342e5c72ddeca322e13c74a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -507,6 +426,42 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_f9fd1729ea006418140cda520cf7d5614096e342/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.4.0_1a1974578b9b31efd9875256e1b48c3f6f9c9998/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.4.0_d4cac995ecdcc459701717653673a3ee49235dcb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.4.0_d2ccba14387b704bc866da4e22c6ddf3893065d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -534,12 +489,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.4.0_4225ce3c31b4cac60df645670fcb5067e14dfa6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
         sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
         <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.4.0_af03d95b8310c56be3965038e70c91a48eb7d008/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.4.0_5e1b86e00589955aa5fab4e75c20cffa8ec49f22/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -552,12 +525,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.4.0_115e2da9b919534552ae85c95cb569ebf0451d7e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
         sha1="e35002351f2d415093a9b564652d4b56be6a0593">
         <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-9.4.0_f744f5ed837c13f712d9b7496addee91df056533/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_864115cdee2812c6523afcc48f1046fcd6e0b612/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.4.0_92342f7dd0dc77602f2b809135f5af392118e792/classes.dex" />
     </item>
     <item
         is-multidex="true"

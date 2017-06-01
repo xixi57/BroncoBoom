@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-40:12
+ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-44:12
 	package
 		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:10:5-32
 		INJECTED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
@@ -8,13 +8,13 @@ ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterPr
 		INJECTED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
-		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-40:12
+		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-44:12
 		INJECTED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:11-69
 	android:versionCode
 		INJECTED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
-		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-40:12
+		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-44:12
 		INJECTED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/debug/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:12:5-67
@@ -54,8 +54,8 @@ ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterPr
 	android:name
 		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:15:22-76
 application
-ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:18:5-38:19
-MERGED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:18:5-38:19
+ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:18:5-42:19
+MERGED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:18:5-42:19
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services/9.4.0/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.4.0/AndroidManifest.xml:27:5-20
@@ -103,8 +103,8 @@ MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/raoyinc
 MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-v4:23.4.0] /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:24:9-41
-		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:24:9-41
+		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:23:9-41
+		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:23:9-41
 	android:hardwareAccelerated
 		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:21:9-44
 		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:21:9-44
@@ -112,11 +112,11 @@ MERGED from [com.android.support:support-v4:23.4.0] /Users/raoyinchen/Desktop/Pa
 		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:20:9-35
 		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:20:9-35
 	android:icon
-		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:23:9-43
-		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:23:9-43
+		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:22:9-43
+		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:22:9-43
 	android:largeHeap
-		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:22:9-33
-		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:22:9-33
+		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:24:9-33
+		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:24:9-33
 	android:theme
 		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:25:9-40
 		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:25:9-40
@@ -152,6 +152,14 @@ ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterPr
 MERGED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:37:9-55
 	android:name
 		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:37:19-52
+activity#com.parse.starter.userFeedScrollingActivity
+ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:38:9-41:68
+	android:label
+		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:40:13-71
+	android:theme
+		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:41:13-56
+	android:name
+		ADDED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:39:13-54
 uses-sdk
 INJECTED from /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services/9.4.0/AndroidManifest.xml:4:5-42

@@ -5,19 +5,19 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="455106244861152"
+    timestamp="468409743980110"
     token="-1416504313774751312"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1060" />
+        duration="1814" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="110" />
+        duration="384" />
     <task
         name="verifier"
         duration="5" />
@@ -27,14 +27,30 @@
         type="DEX" />
 
     <build
-        timestamp="454701223414586"
+        timestamp="466467813146456"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="455106244861152"
+        timestamp="467757943805398"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="468409743980110"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
