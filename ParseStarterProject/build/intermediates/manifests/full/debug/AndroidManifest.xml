@@ -54,6 +54,14 @@
         <activity
             android:name="com.parse.starter.userFeedScrollingActivity"
             android:label="@string/title_activity_user_feed_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.parse.starter.SingleViewActivity"
+            android:label="@string/title_activity_single_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.parse.starter.UserSingleViewActivity"
+            android:label="@string/title_activity_user_single_view"
             android:theme="@style/AppTheme.NoActionBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

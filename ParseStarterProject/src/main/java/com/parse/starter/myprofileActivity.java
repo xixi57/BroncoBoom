@@ -22,6 +22,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
@@ -39,7 +40,10 @@ import com.squareup.picasso.Picasso;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.text.Format;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class myprofileActivity extends AppCompatActivity
@@ -47,6 +51,7 @@ public class myprofileActivity extends AppCompatActivity
 
    public static ArrayList<String> imageArray;
     public ImageAdapter adapter;
+    public static ArrayList<Date> objectDates;
     public void getPhoto() {
         Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);//importante!!
         startActivityForResult(intent,1);
@@ -127,13 +132,11 @@ public class myprofileActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-//        MyAsyncTask thetask = new MyAsyncTask();
-//        thetask.execute(null,null,null);
-//        thetask.onPostExecute(null);
-       //imageArray.clear();
+
 
         final GridView gridView = (GridView) findViewById(R.id.myGridView);
         imageArray = new ArrayList<>();
+        objectDates = new ArrayList<>();
         final ParseQuery<ParseObject> imagequery = new ParseQuery<ParseObject>("Image");
         imagequery.whereEqualTo("username",ParseUser.getCurrentUser().getUsername());
         imagequery.addDescendingOrder("createdAt");
@@ -147,6 +150,7 @@ public class myprofileActivity extends AppCompatActivity
                         for(ParseObject object:objects) {
                             ParseFile file = (ParseFile) object.get("image");
                             imageArray.add(file.getUrl().toString());
+                            objectDates.add(object.getCreatedAt());
                         }
                         ArrayList<String>urls = new ArrayList<>(imageArray);
                         // GridView gridView = (GridView) findViewById(R.id.myGridView);
@@ -171,7 +175,20 @@ public class myprofileActivity extends AppCompatActivity
         //imageUpdate();
         adapter.notifyDataSetChanged();
 
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
+                Intent i = new Intent(getApplicationContext(), SingleViewActivity.class);
+                // Pass image index
+                i.putExtra("position", position);
+                i.putExtra("username",ParseUser.getCurrentUser().getUsername().toString());
+                Format formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:SS");
+                String s = formatter.format(objectDates.get(position));
+                i.putExtra("createdAt",s);
+                startActivity(i);
+            }
+        });
         //gridView.notify();
 //        ParseQuery<ParseObject> imagequery = new ParseQuery<ParseObject>("Image");
 //        imagequery.whereEqualTo("username",ParseUser.getCurrentUser().getUsername());
@@ -460,15 +477,15 @@ class ImageAdapter extends BaseAdapter {
         if (convertView == null) {
             // if it's not recycled, initialize some attributes
             imageView = new ImageView(mContext);
-//            imageView.setLayoutParams(new GridView.LayoutParams(85, 85));
-//            imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-            imageView.setPadding(12,12,12,12);
+            imageView.setLayoutParams(new GridView.LayoutParams(320, 330));
+            imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
+            imageView.setPadding(5,0,10,0);
         } else {
             imageView = (ImageView) convertView;
         }
         Picasso.with(mContext)
                 .load(urls.get(position))
-                .resize(600,600).centerCrop()
+                .resize(590,590).centerCrop()
                 .into(imageView);
 
         return imageView;

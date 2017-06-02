@@ -97,7 +97,7 @@
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="65b49dc2dfe77c4b62793f5e12ed46e1337395c4">
+        sha1="2628c72a29305e118bacde44b804ea1608bcf2f8">
         <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a9426528710772fa03613f41b36bf31db0e40383/classes.dex" />
     </item>
     <item
@@ -124,7 +124,7 @@
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="74ebf96d59b11cd6872ab5b13976fc74050b2861">
+        sha1="ba9a0f793b4aee3e0f63212251e6dd86a86277c7">
         <dex dex="/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f2f773e7aa79039df11203fee18b35b3b155b78b/classes.dex" />
     </item>
     <item

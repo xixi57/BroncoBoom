@@ -600,7 +600,9 @@
     <string name="title_activity_driver_location">Map</string>
     <string name="title_activity_myprofile">myprofileActivity</string>
     <string name="title_activity_rider">Map</string>
+    <string name="title_activity_single_view">SingleViewActivity</string>
     <string name="title_activity_user_feed_scrolling">userFeedScrollingActivity</string>
+    <string name="title_activity_user_single_view">UserSingleViewActivity</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

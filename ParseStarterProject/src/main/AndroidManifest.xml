@@ -38,6 +38,14 @@
         <activity
             android:name=".userFeedScrollingActivity"
             android:label="@string/title_activity_user_feed_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SingleViewActivity"
+            android:label="@string/title_activity_single_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserSingleViewActivity"
+            android:label="@string/title_activity_user_single_view"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

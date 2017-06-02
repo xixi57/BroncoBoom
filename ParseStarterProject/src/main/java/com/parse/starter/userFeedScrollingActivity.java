@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.GridView;
 
 import com.parse.FindCallback;
@@ -15,14 +16,18 @@ import com.parse.ParseException;
 import com.parse.ParseFile;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
+import com.parse.ParseUser;
 
+import java.text.Format;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class userFeedScrollingActivity extends AppCompatActivity {
 
     public static ArrayList<String> userimagearray;
-
+    public  static ArrayList<Date> userFeedDates;
     public ImageAdapter userimageadapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +47,7 @@ public class userFeedScrollingActivity extends AppCompatActivity {
         });
 
         userimagearray = new ArrayList<>();
+        userFeedDates = new ArrayList<>();
         final GridView usergridview = (GridView) findViewById(R.id.userFeedGridView);
         Intent intent = getIntent();
         String activeUser = intent.getStringExtra("username");
@@ -62,6 +68,7 @@ public class userFeedScrollingActivity extends AppCompatActivity {
                         for(ParseObject object:objects) {
                             ParseFile file = (ParseFile) object.get("image");
                             userimagearray.add(file.getUrl().toString());
+                            userFeedDates.add(object.getCreatedAt());
                         }
                         ArrayList<String>urls = new ArrayList<>(userimagearray);
                         // GridView gridView = (GridView) findViewById(R.id.myGridView);
@@ -79,8 +86,21 @@ public class userFeedScrollingActivity extends AppCompatActivity {
 
 
 
+        usergridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-        
+                Intent i = new Intent(getApplicationContext(), UserSingleViewActivity.class);
+                // Pass image index
+                i.putExtra("position", position);
+                i.putExtra("username", ParseUser.getCurrentUser().getUsername().toString());
+                Format formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:SS");
+                String s = formatter.format(userFeedDates.get(position));
+                i.putExtra("createdAt",s);
+                startActivity(i);
+            }
+        });
+
     }
 }
 

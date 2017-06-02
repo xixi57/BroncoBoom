@@ -1,4 +1,4 @@
-#Thu Jun 01 14:17:25 PDT 2017
+#Thu Jun 01 16:52:29 PDT 2017
 base.0=/Users/raoyinchen/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a9426528710772fa03613f41b36bf31db0e40383
 renamed.1=classes.dex
 renamed.0=classes2.dex
